@@ -35,10 +35,10 @@ public class Fibonacci {
         }
 
         int result = fibonacci(n);
-        System.out.println("*********************************************************");
-        System.out.println("The Calculation complete!");
+        System.out.println("---------------------------------------------------------");
+        System.out.println("Calculation complete!");
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
-        System.out.println("*********************************************************");
+        System.out.println("---------------------------------------------------------");
 
         // Keep the container running until user presses Enter
         scanner.nextLine();
